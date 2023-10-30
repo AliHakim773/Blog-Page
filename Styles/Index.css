@@ -28,3 +28,16 @@
     margin: 1.5em 1em;
     font-size: 18px;
 }
+.ingrediens-table {
+    margin: 1.5em 1.7em;
+}
+.ingrediens-table tr {
+    height: 1.7rem;
+}
+.ingrediens-table td {
+    min-width: 3em;
+}
+.quantity {
+    font-weight: bold;
+    color: #e60000;
+}
