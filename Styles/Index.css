@@ -60,11 +60,9 @@
     width: 1.2em;
     text-align: center;
 }
-
-.img {
-    margin: 0.7em auto;
-}
-.img img {
+.steps-img {
+    display: block;
+    margin: 0.7em 1em;
     width: 600px;
     height: 300px;
 }
