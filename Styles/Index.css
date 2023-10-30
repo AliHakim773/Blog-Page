@@ -41,3 +41,30 @@
     font-weight: bold;
     color: #e60000;
 }
+.steps {
+    list-style: none;
+    counter-reset: item;
+    margin: 1em;
+}
+.steps li {
+    counter-increment: item;
+    margin-bottom: 3em;
+}
+.steps li:before {
+    content: counter(item);
+    display: inline-block;
+    margin-right: 15px;
+    background: #e60000;
+    color: white;
+    border-radius: 100%;
+    width: 1.2em;
+    text-align: center;
+}
+
+.img {
+    margin: 0.7em auto;
+}
+.img img {
+    width: 600px;
+    height: 300px;
+}
