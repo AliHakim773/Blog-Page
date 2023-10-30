@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.section {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.header {
+    background-color: #e60000;
+    color: white;
+}
+.title {
+    font-size: 2.2em;
+}
+.credits {
+    font-style: italic;
+}
