@@ -13,9 +13,18 @@
     background-color: #e60000;
     color: white;
 }
-.title {
+.header-title {
     font-size: 2.2em;
 }
 .credits {
     font-style: italic;
+}
+
+.title {
+    color: #e60000;
+    font-size: 2em;
+}
+.paragraph {
+    margin: 1.5em 1em;
+    font-size: 18px;
 }
